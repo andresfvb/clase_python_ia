@@ -13,3 +13,12 @@ a = 3
 print(type(a))
 a = "Hola"
 print(type(a))
+a = 3
+y = str(a)
+print(y)
+print(type(y))
+
+#Concatenaciones
+a = "Hola"
+b = "Mundo"
+c = a + ' ' + b
