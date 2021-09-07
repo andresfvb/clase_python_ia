@@ -41,3 +41,14 @@ elif(numero < 0):
     print("El numero es negativo")
 else:
     print("El numero es 0")
+
+# CICLO FOR _-----------------
+
+cant_notas = int(input("Cuantas notas va a digitar"))
+acumulado = 0
+for x in range(cant_notas):
+    nota = float(input(f"Digite la nota {x+1}"))
+    acumulado = acumulado+nota
+promedio = acumulado/cant_notas
+promedio = round(promedio, 2)
+print(f"El promedio final es de: {promedio}")
